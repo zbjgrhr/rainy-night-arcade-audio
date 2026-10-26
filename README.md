@@ -1,6 +1,6 @@
 # 雨夜游戏厅 · 原曲托管
 
-这里仅托管《雨夜游戏厅》使用的原始配乐，以便网页按需加载。音频文件与游戏 v1.10.3 包中的原件逐字节一致，没有重新编码。
+这里单独托管《雨夜游戏厅》的配乐。`music/` 保留与游戏 v1.10.3 包逐字节一致的原文件；`stream/` 是由这些原文件制作的 320 kbps MP3 网页播放版，以缩短大曲目在浏览器里的启动等待。游戏网页播放 `stream/`，原文件仍可从 `music/` 获取。
 
 曲目作者、原始来源和各自许可见 [来源与署名.md](./来源与署名.md)。本仓库不对第三方音乐重新授权。
 
@@ -27,4 +27,4 @@
 | T01 | T01_First Light Particles（已确定）.wav | T01_music.wav | 24.12 | `f0538a1a67450cc1d5e305fad5bc0d5d422ad809f720d695ab356e55fbe40fc5` |
 | T03 | T03_Steller Dreams（已确定）.flac | T03_music.flac | 24.25 | `dc8a1f0e494b84b6b2124ed66201dfc353b4121c234473db43b6fa7df43f8d88` |
 
-游戏网页只引用固定版本的公开附件。删除或改名附件会使配乐无法播放。
+网页资源地址为 https://zbjgrhr.github.io/rainy-night-arcade-audio/ 。原曲另备份在 [v1.10.4 发布附件](https://github.com/zbjgrhr/rainy-night-arcade-audio/releases/tag/v1.10.4)。请保留 `music/` 与 `stream/` 文件名，游戏依赖这些公开地址。
